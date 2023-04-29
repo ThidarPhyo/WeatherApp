@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5235A2B829FCED12002473AF /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235A2B729FCED12002473AF /* Weather.swift */; };
+		5235A2BA29FCED27002473AF /* weatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235A2B929FCED27002473AF /* weatherButton.swift */; };
+		5235A2BC29FCED36002473AF /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235A2BB29FCED36002473AF /* WeatherService.swift */; };
+		5235A2BE29FCED49002473AF /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5235A2BD29FCED49002473AF /* WeatherViewModel.swift */; };
 		52514A6029FC2155009E7FD6 /* WeatherDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514A5F29FC2155009E7FD6 /* WeatherDemoApp.swift */; };
 		52514A6229FC2155009E7FD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52514A6129FC2155009E7FD6 /* ContentView.swift */; };
 		52514A6429FC2159009E7FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52514A6329FC2159009E7FD6 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5235A2B729FCED12002473AF /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		5235A2B929FCED27002473AF /* weatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherButton.swift; sourceTree = "<group>"; };
+		5235A2BB29FCED36002473AF /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		5235A2BD29FCED49002473AF /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		52514A5C29FC2155009E7FD6 /* WeatherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52514A5F29FC2155009E7FD6 /* WeatherDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDemoApp.swift; sourceTree = "<group>"; };
 		52514A6129FC2155009E7FD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +61,10 @@
 			children = (
 				52514A5F29FC2155009E7FD6 /* WeatherDemoApp.swift */,
 				52514A6129FC2155009E7FD6 /* ContentView.swift */,
+				5235A2B729FCED12002473AF /* Weather.swift */,
+				5235A2B929FCED27002473AF /* weatherButton.swift */,
+				5235A2BB29FCED36002473AF /* WeatherService.swift */,
+				5235A2BD29FCED49002473AF /* WeatherViewModel.swift */,
 				52514A6329FC2159009E7FD6 /* Assets.xcassets */,
 				52514A6529FC2159009E7FD6 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5235A2BC29FCED36002473AF /* WeatherService.swift in Sources */,
+				5235A2BE29FCED49002473AF /* WeatherViewModel.swift in Sources */,
 				52514A6229FC2155009E7FD6 /* ContentView.swift in Sources */,
+				5235A2B829FCED12002473AF /* Weather.swift in Sources */,
+				5235A2BA29FCED27002473AF /* weatherButton.swift in Sources */,
 				52514A6029FC2155009E7FD6 /* WeatherDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +286,9 @@
 				DEVELOPMENT_TEAM = AZ58662R7A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow?";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Allow ?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,9 @@
 				DEVELOPMENT_TEAM = AZ58662R7A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow?";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Allow ?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
